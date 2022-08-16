@@ -1,0 +1,12 @@
+@mixin nav__link {
+  margin: 0 1rem;
+}
+
+.nav__link--active {
+  @include nav__link;
+  text-decoration: underline;
+}
+
+.nav__link--inactive {
+  @include nav--link;
+}
